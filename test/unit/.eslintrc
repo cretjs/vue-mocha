@@ -1,0 +1,16 @@
+{
+  "env": {
+    "mocha": true
+  },
+  "globals": {
+    "expect": true,
+    "sinon": true
+  },
+  // add your custom rules here
+  "rules":{
+    // allow async-await
+    "generator-star-spacing":"off",
+    // allow debugger during development
+    "no-debugger":"off"
+  }
+}
